@@ -83,4 +83,26 @@
      .about-all p{
         font-size: 16px;
      }
+     .hero-main h1{
+        font-size: 30px;
+     }
+     .hero-main p {
+        font-size: 16px;
+    }
+    .attornets-box h3 {
+    color: #FFFF;
+    font-size: 25px;
+}
+.lenders-box ul li {
+    margin: 10px 0;
+    list-style: none;
+    color: #FFFFFF;
+    font-size: 15px;
+}
+.services-box h2 {
+    font-size: 20px;
+    text-align: center;
+    padding: 15px 0;
+    color: #fff;
+}
 }

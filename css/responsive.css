@@ -1,0 +1,86 @@
+@media screen and (max-width: 1200px){
+    .hero-main h1{
+        font-size: 35px;
+    }
+    .hero-main p{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    i.fa-solid.fa-bars {
+    color: #E3AF5A;
+    }
+    .for-dektop{
+        display: none;
+    }
+    .navbar-light .navbar-toggler{
+        color: #E3AF5A;
+        border-color: #e3ae5a3d;
+    }
+    .navbar-brand img{
+        width: 150px;
+    }
+    .services-box{
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .hero-main{
+        flex-direction: column;
+    }
+    .hero-box-text{
+        padding: 90px 0 20px;
+        text-align: center;
+        width: 100%;
+    }
+    .hero-box-photo{
+        width: 100%;
+    }
+    .contact-box{
+        margin-bottom: 20px;
+    }
+    #contact{
+        margin-top: -1px;
+        padding: 50px 0;
+    }
+    #about{
+        margin-top: -1px;
+    }
+    #attornets{
+        padding: 50px 0;
+        margin-top: -1px;
+    }
+    .cta-help {
+    margin: 7px 6px;
+    border-radius: 30px;
+    }
+     .cta-help p{
+        font-size: 14px;
+     }
+     .contact-box h1{
+        font-size: 35px;
+     }
+     #services{
+        padding: 50px 0;
+        margin-top: -1px;
+     }
+     #lenders{
+        padding: 50px 0;
+     }
+     .lenders-main h1{
+        font-size: 35px;
+     }
+     .lenders-main{
+        width: 90%;
+     }
+     .clint-main h1{
+        font-size: 35px;
+     }
+     .for-phone {
+        margin-top: 20px;
+        display: block!important;
+     }
+     .about-all p{
+        font-size: 16px;
+     }
+}

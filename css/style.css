@@ -1,0 +1,582 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+	font-family: "Inter", sans-serif;
+	
+}
+h1,h2,h3,h4{
+		font-family: "Playfair Display", serif;
+}
+li{
+	list-style: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+.all-wrap{
+	overflow-x: hidden;
+}
+#hero{
+	width: 100%;
+	background: url(../images/hero-bg.png) center center no-repeat;
+	background-size: cover;
+	height: 100v;
+}
+a:hover{
+	text-decoration: none;
+}
+.container{
+	max-width: 1300px;
+}
+nav {
+	border-radius: 10px;
+
+
+}
+nav.navbar.navbar-expand-lg.navbar-light.bg-white.shadow-sm {
+	padding: 10px 30px;
+}
+.nav-item a{
+	color: #ffffff !important;
+}
+.navbar-brand img{
+	width: 250px;
+}
+.nav-link {
+	font-size: 16px;
+	transition: .6s;
+	font-weight: 500;
+}
+
+.nav-link:hover {
+	color: #E3AF5A!important;
+}
+ul.navbar-nav.nav-center li{
+	padding: 0 15px;
+}
+.navbar-nav {
+	margin: auto;
+}
+
+.nav-center {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.nav-item{
+	padding: 0 10px;
+}
+.nav-item{
+	padding: 0 10px;
+}
+
+.btn-outline-dark {
+	margin-right: 10px;
+}
+p{
+	color:#454545;
+}
+.btn-header {
+	background: #072E1D;
+	padding: 10px 30px;
+	font-weight: 500;
+	border-radius: 5px;
+	border: none;
+	transition: .6s;
+  }
+.right-btn a{
+	text-decoration: none;
+	color: #E3AF5A;
+}
+.btn-header:hover{
+	color: #060606;
+	background: #E3AF5A;
+}
+.btn-header i{
+	margin-left: 5px;
+}
+
+.for-phone{
+	display: none!important;
+}
+.menu-center{
+	display: flex;
+	justify-content: center;
+}
+.hero-main{
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+.hero-box-text{
+	width: 50%;
+}
+.hero-box-photo{
+	width: 50%;
+	display: flex;
+	justify-content: center;
+}
+.top-btn {
+	border-radius: 5px;
+	border: none;
+	margin-bottom: 20px;
+  }
+.top-btn a{
+	background: linear-gradient(90.64deg, rgba(7, 46, 29, 0.81) 3.19%, rgba(30, 27, 19, 0.36) 99.57%);
+	padding: 10px 25px;
+	border-radius: 50px;
+	text-decoration: none;
+	color:#E3AF5A;
+}
+.top-btn a img{
+	width: 6px;
+	margin-right: 7px;
+}
+.hero-main h1{
+	font-size: 50px;
+	color: #fff;
+}
+.hero-main p{
+	font-size: 20px;
+	color: #fff;
+	padding: 10px 0;
+}
+.hero-main-btn{
+	display: flex;
+	justify-content: center;
+}
+.hero-main-btn a{
+	text-decoration: none;
+}
+
+.hero-box-photo img{
+	width: 70%;
+}
+#about{
+	width: 100%;
+	background: #060606;
+	padding: 100px 0;
+	text-align: center;
+	
+}
+.about-all{
+	width: 100%;
+	margin: 0 auto;
+	color: #FFFF;
+}
+.tex-center{
+	margin-bottom: 30px;
+}
+.about-all p{
+	font-size: 25px;
+	color: #FFFF;
+}
+#attornets{
+	width: 100%;
+	padding: 100px 0;
+	background:#111111 ;
+}
+.tex-center{
+	text-align: center;
+}
+.attornets-main{
+	margin-top: 70px;
+}
+.attornets-box {
+	background: linear-gradient(106.98deg, #1D1D1D 9.78%, rgba(29, 29, 29, 0.17) 61.7%);
+	padding: 30px 25px;
+	border-radius: 10px;
+	border-bottom: 2px solid #072E1D;
+	height: 100%;
+	transition: .6s;
+}
+.attornets-box:hover{
+	background: linear-gradient(106.98deg, #072E1D 9.78%, rgba(29, 29, 29, 0.17) 61.7%);
+	transform: translateY(-10px);
+}
+.attornets-box h3{
+	color: #FFFF;
+}
+.attornets-box h6{
+	color: #E3AF5A;
+}
+.attornets-box p{
+	color: #DFDFDF;
+}
+#clint{
+	width: 100%;
+	background: #060606;
+	padding: 100px 0;
+	text-align: center;
+}
+.clint-main h1{
+	font-size: 45px;
+	color: #FFFFFF;
+}
+.mar-top{
+	margin-top: 30px;
+}
+.crdw-help{
+	width: 100%;
+	overflow: hidden;
+	background-size: cover;
+	margin-top: 20px;
+
+}
+.animate-marquee-ltr{
+	white-space: nowrap;
+	display: flex;
+	overflow: hidden;
+	position: relative;
+}
+.marquee-box{
+	display: inline-flex;
+	animation: scroll-left 40s linear infinite;
+}
+.cta-help {
+	display: flex;
+	align-items: center;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 0 2rem;
+	font-size: 1.2rem;
+	white-space: nowrap;
+	gap: 0.5rem;
+  }
+.marquee-box-right{
+	display: inline-flex;
+	animation: scroll-right 100s linear infinite;
+}
+  @keyframes scroll-right {
+	0% {
+	  transform: translateX(-50%);
+	}
+	100% {
+	  transform: translateX(50%);
+	}
+}
+
+.cta-help{
+	margin:15px  20px;
+	border-radius: 30px;
+	padding: 8px 20px;
+    background: linear-gradient(90.64deg, rgba(7, 46, 29, 0.81) 3.19%, rgba(30, 27, 19, 0.36) 99.57%);
+    backdrop-filter: blur(4px);
+    border: 0.5px solid rgba(255, 255, 255, 0.14);
+}
+.cta-help p{
+	margin: 0;
+	color: #E3AF5A;
+	font-weight: 400;
+	font-size: 18px;
+}
+.cta-help  img{
+	margin-right: 10px;
+}
+
+/* Wrapper ensures overflow is hidden */
+.animate-marquee-ltr {
+	white-space: nowrap;
+	overflow: hidden;
+	position: relative;
+  }
+  
+  /* Left to Right scroll (for first & last marquee) */
+  .marquee-box-right {
+	display: inline-flex;
+	animation: scroll-right 70s linear infinite;
+  }
+  
+  /* Right to Left scroll (for middle marquee) */
+  .marquee-box-left {
+	display: inline-flex;
+	animation: scroll-left 70s linear infinite;
+  }
+  
+  /* Animations */
+  @keyframes scroll-right {
+	0% {
+	  transform: translateX(-50%);
+	}
+	100% {
+	  transform: translateX(0%);
+	}
+  }
+  
+  @keyframes scroll-left {
+	0% {
+	  transform: translateX(0%);
+	}
+	100% {
+	  transform: translateX(-50%);
+	}
+  }
+
+#lenders{
+	width: 100%;
+	padding: 100px 0 ;
+	background: #111111;
+}
+.lenders-main{
+	width: 70%;
+	margin: 0 auto;
+}
+.lenders-main h1{
+	font-size: 45px;
+	text-align: center;
+	color: #fff;
+}
+.lenders-all-box{
+	margin-top: 50px;
+}
+.lenders-box ul li{
+	margin: 10px 0;
+	list-style: none;
+	color: #FFFFFF;
+}
+.lenders-box ul li img{
+	width: 8px;
+	margin-right: 10px;
+}
+#services{
+	width: 100%;
+	padding-top: 100px;
+	padding-bottom: 100px ;
+	background: #111111;
+}
+.services-box-all{
+	margin-top: 50px ;
+}
+.services-box{
+	padding: 30px 25px;
+	background: linear-gradient(106.98deg, #1D1D1D 9.78%, rgba(29, 29, 29, 0.25) 61.7%);
+	border-radius: 5px;
+	height: 100%;
+	transition: .6s;
+}
+.services-box:hover{
+	background: linear-gradient(106.98deg, #072E1D 9.78%, rgba(29, 29, 29, 0.17) 61.7%);
+	transform: translateY(-10px);
+}
+.services-box-photo{
+	text-align: center;
+}
+.services-box h2{
+	font-size: 25px;
+	text-align: center;
+	padding: 15px 0;
+	color: #fff;
+}
+.services-box ul li{
+	color: #fff;
+	margin: 10px 0;
+}
+.services-box ul li img{
+	width: 10px;
+	margin-right: 10px;
+}
+#contact{
+	width: 100%;
+	padding: 100px 0;
+	background: #060606;
+}
+.contact-main{
+	display: flex;
+	align-items: center;
+	margin-top: 80px;
+}
+.contact-box h1{
+	font-size: 50px;
+	color: #fff;
+}
+.contact-box-info {
+	border-left: 1px solid #E3AF5A;
+	padding-left: 10px;
+}
+.contact-box-info p{
+	color: #fff;
+	margin-bottom: 5px;
+}
+.map{
+	border-radius: 5px;
+}
+#footer{
+	width: 100%;
+	padding: 20px 0;
+	text-align: center;
+	background: #072E1D;
+}
+#footer p{
+	margin-bottom: 0;
+	color: #fff;
+}
+#footer p a{
+	color: #E3AF5A;
+	text-decoration: underline;
+}
+#footer p span{
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title{
+	background: url(../images/page-title.png) center center no-repeat;
+	background-size: cover;
+	padding: 150px 0;
+}
+.page-title h2{
+	color: #fff;
+	font-size: 50px;
+}
+
+
+ /* Seminars Hero Section */
+        .seminars-hero {
+            padding: 80px 0;
+            text-align: center;
+            background: #111111;
+           
+            border-bottom: 1px solid #333;
+        }
+        
+        .seminars-hero h1 {
+            font-size: 2.8rem;
+            margin-bottom: 20px;
+            color: #E3AF5A;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .seminars-hero p {
+            max-width: 800px;
+            margin: 0 auto;
+            font-size: 1.2rem;
+            color: #ccc;
+        }
+        
+        /* Seminars Content Section */
+        .seminars-content {
+			 margin-top: -1px;
+			 padding-bottom: 30px;
+			background: #111111;
+        
+        }
+        
+        .seminars-intro {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        
+        .seminars-intro p {
+            max-width: 800px;
+            margin: 0 auto 20px;
+            font-size: 1.1rem;
+            color: #ccc;
+        }
+        
+        /* Seminars Topics Section */
+        .seminars-topics {
+            margin-bottom: 50px;
+        }
+        
+        .topics-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        
+        .topic-category {
+            background: rgba(35, 35, 35, 0.6);
+            border-radius: 8px;
+            padding: 25px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease;
+        }
+        
+        .topic-category:hover {
+            transform: translateY(-5px);
+        }
+        
+        .topic-category h3 {
+            color: #E3AF5A;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #333;
+            font-size: 1.4rem;
+        }
+        
+        .topic-list {
+            list-style-type: none;
+        }
+        
+        .topic-list li {
+            padding: 8px 0;
+            border-bottom: 1px dotted #333;
+            color: #ccc;
+        }
+        
+        .topic-list li:last-child {
+            border-bottom: none;
+        }
+        
+        /* Seminars Hosts Section */
+        .seminars-hosts {
+            text-align: center;
+            padding: 40px 0;
+            background: rgba(35, 35, 35, 0.4);
+            border-radius: 8px;
+            margin-top: 30px;
+	
+        }
+        
+        .seminars-hosts h2 {
+            color: #E3AF5A;
+            margin-bottom: 30px;
+            font-size: 1.8rem;
+        }
+        
+        .hosts-container {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            flex-wrap: wrap;
+        }
+        
+        .host-card {
+            background: rgba(20, 20, 20, 0.7);
+            padding: 20px;
+            border-radius: 8px;
+            width: 44%;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+        
+        .host-card h3 {
+            color: #E3AF5A;
+            margin-bottom: 10px;
+        }
+        
+        .host-card p {
+            color: #ccc;
+            font-size: 0.95rem;
+        }
+
+        
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .seminars-hero h1 {
+                font-size: 2.2rem;
+            }
+			.host-card{
+				width: 100%;
+			}
+            
+            .topics-container {
+                grid-template-columns: 1fr;
+            }
+            
+            .hosts-container {
+                flex-direction: column;
+                align-items: center;
+            }
+        }

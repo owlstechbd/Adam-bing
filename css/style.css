@@ -19,9 +19,7 @@ html{
 }
 #hero{
 	width: 100%;
-	background: url(../images/hero-bg.png) center center no-repeat;
-	background-size: cover;
-	height: 100v;
+	background:#f1f1f1;
 }
 a:hover{
 	text-decoration: none;
@@ -38,7 +36,7 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-white.shadow-sm {
 	padding: 10px 30px;
 }
 .nav-item a{
-	color: #ffffff !important;
+	color: #072E1D !important;
 }
 .navbar-brand img{
 	width: 250px;
@@ -78,7 +76,7 @@ p{
 	color:#454545;
 }
 .btn-header {
-	background: #072E1D;
+	background: #E3AF5A;
 	padding: 10px 30px;
 	font-weight: 500;
 	border-radius: 5px;
@@ -87,11 +85,11 @@ p{
   }
 .right-btn a{
 	text-decoration: none;
-	color: #E3AF5A;
+	color: #072E1D;
 }
 .btn-header:hover{
-	color: #060606;
-	background: #E3AF5A;
+	color: #E3AF5A;
+	background: #072E1D;
 }
 .btn-header i{
 	margin-left: 5px;
@@ -106,6 +104,7 @@ p{
 }
 .hero-main{
 	width: 100%;
+	padding:80px 0 120px;
 	display: flex;
 	align-items: center;
 }
@@ -115,7 +114,7 @@ p{
 .hero-box-photo{
 	width: 50%;
 	display: flex;
-	justify-content: center;
+	justify-content: right;
 }
 .top-btn {
 	border-radius: 5px;
@@ -123,7 +122,7 @@ p{
 	margin-bottom: 20px;
   }
 .top-btn a{
-	background: linear-gradient(90.64deg, rgba(7, 46, 29, 0.81) 3.19%, rgba(30, 27, 19, 0.36) 99.57%);
+	background: linear-gradient(90.64deg, rgba(7, 46, 29, 0.81) 3.19%, rgb(7 46 29) 99.57%);
 	padding: 10px 25px;
 	border-radius: 50px;
 	text-decoration: none;
@@ -135,11 +134,11 @@ p{
 }
 .hero-main h1{
 	font-size: 50px;
-	color: #fff;
+	color: #072E1D;
 }
 .hero-main p{
 	font-size: 20px;
-	color: #fff;
+	color: #1D1F1E;
 	padding: 10px 0;
 }
 .hero-main-btn{
@@ -151,11 +150,12 @@ p{
 }
 
 .hero-box-photo img{
-	width: 70%;
+	width: 90%;
+	text-align: right;
 }
 #about{
 	width: 100%;
-	background: #060606;
+	background: #042416;
 	padding: 100px 0;
 	text-align: center;
 	
@@ -175,7 +175,7 @@ p{
 #attornets{
 	width: 100%;
 	padding: 100px 0;
-	background:#111111 ;
+	background:#f1f1f1;
 }
 .tex-center{
 	text-align: center;
@@ -184,7 +184,7 @@ p{
 	margin-top: 70px;
 }
 .attornets-box {
-	background: linear-gradient(106.98deg, #1D1D1D 9.78%, rgba(29, 29, 29, 0.17) 61.7%);
+	background:#042416;
 	padding: 30px 25px;
 	border-radius: 10px;
 	border-bottom: 2px solid #072E1D;
@@ -192,7 +192,7 @@ p{
 	transition: .6s;
 }
 .attornets-box:hover{
-	background: linear-gradient(106.98deg, #072E1D 9.78%, rgba(29, 29, 29, 0.17) 61.7%);
+	
 	transform: translateY(-10px);
 }
 .attornets-box h3{
@@ -206,9 +206,8 @@ p{
 }
 #clint{
 	width: 100%;
-	background: #060606;
+	background: rgb(4, 36, 22);
 	padding: 100px 0;
-	text-align: center;
 }
 .clint-main h1{
 	font-size: 45px;
@@ -217,6 +216,7 @@ p{
 .mar-top{
 	margin-top: 30px;
 }
+
 .crdw-help{
 	width: 100%;
 	overflow: hidden;
@@ -322,12 +322,20 @@ p{
 	width: 70%;
 	margin: 0 auto;
 }
+
+.main-Financial{
+	width: 50%;
+}
 .lenders-main h1{
 	font-size: 45px;
 	text-align: center;
 	color: #fff;
 }
 .lenders-all-box{
+	display: flex;
+	width: 90%;
+	margin: 0 auto;
+	justify-content: center;
 	margin-top: 50px;
 }
 .lenders-box ul li{
@@ -343,20 +351,20 @@ p{
 	width: 100%;
 	padding-top: 100px;
 	padding-bottom: 100px ;
-	background: #111111;
+	background: rgb(241, 241, 241);
 }
 .services-box-all{
 	margin-top: 50px ;
 }
 .services-box{
 	padding: 30px 25px;
-	background: linear-gradient(106.98deg, #1D1D1D 9.78%, rgba(29, 29, 29, 0.25) 61.7%);
+	background: #042416;
 	border-radius: 5px;
 	height: 100%;
 	transition: .6s;
 }
 .services-box:hover{
-	background: linear-gradient(106.98deg, #072E1D 9.78%, rgba(29, 29, 29, 0.17) 61.7%);
+	
 	transform: translateY(-10px);
 }
 .services-box-photo{

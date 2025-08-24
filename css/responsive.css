@@ -11,6 +11,9 @@
     i.fa-solid.fa-bars {
     color: #E3AF5A;
     }
+    .hero-main{
+        padding: 40px 0;
+    }
     .for-dektop{
         display: none;
     }
@@ -29,10 +32,14 @@
         flex-direction: column;
     }
     .hero-box-text{
-        padding: 90px 0 20px;
+        padding: 50px 0 20px;
         text-align: center;
         width: 100%;
     }
+    .hero-box-photo img {
+    width: 100%;
+    text-align: right;
+}
     .hero-box-photo{
         width: 100%;
     }
@@ -71,7 +78,7 @@
         font-size: 35px;
      }
      .lenders-main{
-        width: 90%;
+        width: 95%;
      }
      .clint-main h1{
         font-size: 35px;
@@ -91,8 +98,14 @@
     }
     .attornets-box h3 {
     color: #FFFF;
-    font-size: 25px;
-}
+    font-size: 25px;}
+    .attornets-box{
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .mar-top{
+        margin-top: 0;
+    }
 .lenders-box ul li {
     margin: 10px 0;
     list-style: none;
